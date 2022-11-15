@@ -2,8 +2,8 @@ import "../../App.css";
 
 const Body = () => {
   return (
-    <div className="md:pt-8">
-      <div className="w-max mb-12">
+    <div className="md:pt-8 pt-12">
+      <div className="w-max md:mb-8 mb-6">
         <div>
           <h2 className="md:text-[32px] text-[16px] font-semibold mb-2">
             Wisata Di Papringan
@@ -18,8 +18,8 @@ const Body = () => {
         </div>
       </div>
       <div className="md:grid grid-cols-2 gap-y-8">
-        <div className="flex justify-center md:mb-0 mb-4">
-          <button className="rounded-[10px] px-2 py-6">
+        <div className="flex justify-center">
+          <button className="rounded-[10px] px-2 md:py-6 md:pb-0 pb-4">
             <div className=" grid grid-cols-2">
               <div></div>
               <div className="flex justify-center">
@@ -48,8 +48,8 @@ const Body = () => {
             </div>
           </button>
         </div>
-        <div className="flex justify-center md:mb-0 mb-4">
-          <button className="rounded-[10px] px-2 py-6">
+        <div className="flex justify-center">
+          <button className="rounded-[10px] px-2 md:py-6 md:pb-0 pb-4">
             <div className=" grid grid-cols-2">
               <div></div>
               <div className="flex justify-center">
@@ -78,8 +78,8 @@ const Body = () => {
             </div>
           </button>
         </div>
-        <div className="flex justify-center md:mb-0 mb-4">
-          <button className="rounded-[10px] px-2 py-6">
+        <div className="flex justify-center">
+          <button className="rounded-[10px] px-2 md:py-6 md:pb-0 pb-4">
             <div className=" grid grid-cols-2">
               <div></div>
               <div className="flex justify-center">
@@ -108,8 +108,8 @@ const Body = () => {
             </div>
           </button>
         </div>
-        <div className="flex justify-center md:mb-0 mb-4">
-          <button className="rounded-[10px] px-2 py-6">
+        <div className="flex justify-center">
+          <button className="rounded-[10px] px-2 md:py-6">
             <div className=" grid grid-cols-2">
               <div></div>
               <div className="flex justify-center">

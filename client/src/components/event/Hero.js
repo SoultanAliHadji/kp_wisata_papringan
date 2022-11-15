@@ -2,14 +2,14 @@ import "../../App.css";
 
 const Hero = () => {
   return (
-    <div className="mt-12">
+    <div className="mt-8">
       <div className="grid grid-cols-2 gap-8">
         <div>
           <div className="flex">
             <h1 className="md:text-[52px] text-[24px] font-semibold">
               Temukan
             </h1>
-            <h2 className="md:text-[32px] text-[16px] font-semibold ml-2 mt-[23px]">
+            <h2 className="md:text-[32px] text-[16px] font-semibold ml-2 md:mt-[23px] mt-[10px]">
               Informasi
             </h2>
           </div>
@@ -26,7 +26,7 @@ const Hero = () => {
               </h2>
             </div>
           </div>
-          <div className="flex mt-40 text-[12px] italic">
+          <div className="flex md:mt-40 mt-10 text-[12px] italic">
             <p className="font-semibold">Catatan:</p>
             <p>&nbsp; Pemesanan Tiket Tidak Dilakukan Melalui Website!!</p>
           </div>

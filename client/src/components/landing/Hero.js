@@ -3,7 +3,7 @@ import "../../App.css";
 const Hero = () => {
   return (
     <div>
-      <div className="grid grid-cols-7 md:h-[550px] h-[340px]">
+      <div className="grid grid-cols-7 md:h-[550px] h-[300px]">
         <div className="col-start-1 col-end-4 flex items-center">
           <div>
             <h1 className="md:text-[52px] text-[24px] font-semibold">

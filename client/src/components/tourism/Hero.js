@@ -2,8 +2,8 @@ import "../../App.css";
 
 const Hero = () => {
   return (
-    <div className="mt-12">
-      <div className="w-full mb-12">
+    <div className="mt-8">
+      <div className="w-full md:mb-8 mb-6">
         <div className="flex justify-center">
           <h2 className="md:text-[32px] text-[16px] font-semibold mb-2">
             Paket Wisata
@@ -19,7 +19,7 @@ const Hero = () => {
       </div>
       <div className="md:h-[384px] h-[340px] flex justify-center">
         <div className="bg-[url(/src/assets/package_border.png)] bg-cover bg-center md:w-[780px] w-[694px] md:h-[360px] h-80 flex justify-center items-center gap-2 grid grid-rows-9">
-          <div className="items-center border-2 border-[#CD7F32] rounded-[10px] w-[184px] h-[260px] row-start-1 row-end-9 mb-[-40px]">
+          <div className="items-center border-2 border-[#CD7F32] rounded-[10px] md:w-[184px] w-[144px] md:h-[260px] h-[220px] row-start-1 row-end-9 mb-[-40px]">
             <div className="flex items-center py-2 mx-2 border-b-2 border-[#CD7F32]">
               <img
                 className="w-10 h-10"
@@ -31,7 +31,7 @@ const Hero = () => {
                 <p>Rp.200k / org</p>
               </div>
             </div>
-            <div className="w-full h-[140px] my-2 mx-2">
+            <div className="w-full md:h-[140px] h-[102px] my-2 mx-2">
               <div className="flex">
                 <p className="font-bold">✓</p>
                 <p>&nbsp; Blablabla</p>
@@ -51,7 +51,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className="items-center border-2 border-[#FFD700] rounded-[10px] w-[220px] h-[300px] row-start-1 row-end-9 mb-[-40px]">
+          <div className="items-center border-2 border-[#FFD700] rounded-[10px] md:w-[220px] w-[168px] md:h-[300px] h-[240px] row-start-1 row-end-9 mb-[-40px]">
             <div className="flex items-center py-2 mx-2 border-b-2 border-[#FFD700]">
               <img
                 className="w-10 h-10"
@@ -59,11 +59,11 @@ const Hero = () => {
                 alt=""
               />
               <div className="ml-2">
-                <p className="font-bold">Bronze</p>
+                <p className="font-bold">Gold</p>
                 <p>Rp.200k / org</p>
               </div>
             </div>
-            <div className="w-full h-[180px] my-2 mx-2">
+            <div className="w-full md:h-[180px] h-[122px] my-2 mx-2">
               <div className="flex">
                 <p className="font-bold">✓</p>
                 <p>&nbsp; Blablabla</p>
@@ -83,7 +83,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className="items-center border-2 border-[#C0C0C0] rounded-[10px] w-[184px] h-[260px] row-start-1 row-end-9 mb-[-40px]">
+          <div className="items-center border-2 border-[#C0C0C0] rounded-[10px] md:w-[184px] w-[144px] md:h-[260px] h-[220px] row-start-1 row-end-9 mb-[-40px]">
             <div className="flex items-center py-2 mx-2 border-b-2 border-[#C0C0C0]">
               <img
                 className="w-10 h-10"
@@ -91,11 +91,11 @@ const Hero = () => {
                 alt=""
               />
               <div className="ml-2">
-                <p className="font-bold">Bronze</p>
+                <p className="font-bold">Silver</p>
                 <p>Rp.200k / org</p>
               </div>
             </div>
-            <div className="w-full h-[140px] my-2 mx-2">
+            <div className="w-full md:h-[140px] h-[102px] my-2 mx-2">
               <div className="flex">
                 <p className="font-bold">✓</p>
                 <p>&nbsp; Blablabla</p>
@@ -115,7 +115,7 @@ const Hero = () => {
               </button>
             </div>
           </div>
-          <div className="row-start-9 row-end-10 mx-[-64px] mb-[-8px] flex text-[12px] italic">
+          <div className="row-start-9 row-end-10 md:mx-[-64px] mr-[-100px] mb-[-8px] flex text-[12px] italic">
             <p className="font-bold">Catatan:</p>
             <p>&nbsp; Harga dapat berubah sewaktu-waktu</p>
           </div>

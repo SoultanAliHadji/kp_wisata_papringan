@@ -3,8 +3,8 @@ import "../../App.css";
 const Body = () => {
   return (
     <div className="md:pt-8">
-      <div className="mb-28">
-        <div className="w-max mb-12">
+      <div className="md:mb-28 mb-12">
+        <div className="w-max md:mb-8 mb-6">
           <div>
             <h2 className="md:text-[32px] text-[16px] font-semibold mb-2">
               Layanan Fasilitas
@@ -69,8 +69,8 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <div className="mb-28">
-        <div className="w-full mb-12">
+      <div className="md:mb-24 mb-12">
+        <div className="w-full md:mb-2 mb-6">
           <div className="flex justify-center">
             <h2 className="md:text-[32px] text-[16px] font-semibold mb-2">
               Tentang Kami
@@ -111,7 +111,7 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <div className="mb-28">
+      <div className="md:mb-28 mb-12">
         <img
           className="w-full"
           src={require("../../assets/ex_landing_video.png")}
@@ -119,7 +119,7 @@ const Body = () => {
         />
       </div>
       <div className="md:grid grid-cols-7 gap-12">
-        <div className="col-start-1 col-end-5 mt-32">
+        <div className="col-start-1 col-end-5 md:mt-32">
           <div className="grid grid-cols-3 mb-4">
             <div className="col-start-1 col-end-2">
               <input
@@ -146,7 +146,7 @@ const Body = () => {
           </div>
         </div>
         <div className="col-start-5 col-end-8">
-          <div className="w-full mb-12">
+          <div className="w-full md:mb-8 mb-6">
             <div className="flex justify-center">
               <h2 className="md:text-[32px] text-[16px] font-semibold mb-2">
                 Tinggalkan Pesan

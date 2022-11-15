@@ -3,7 +3,7 @@ import "../../App.css";
 const Body = () => {
   return (
     <div>
-      <div className="w-max mb-12">
+      <div className="w-max md:mb-8 mb-6">
         <div>
           <h2 className="md:text-[32px] text-[16px] font-semibold mb-2">
             Produk Papringan

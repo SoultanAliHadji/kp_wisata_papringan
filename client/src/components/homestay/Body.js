@@ -2,8 +2,8 @@ import "../../App.css";
 
 const Body = () => {
   return (
-    <div className="mt-12">
-      <div className="w-full mb-12">
+    <div className="mt-8">
+      <div className="w-full md:mb-8 mb-6">
         <div className="flex justify-center">
           <h2 className="md:text-[32px] text-[16px] font-semibold mb-2">
             Homestay Tersedia
@@ -19,7 +19,7 @@ const Body = () => {
       </div>
       <div className="grid grid-cols-1 gap-12">
         <div className="grid grid-cols-12 gap-4">
-          <div className="col-start-1 col-end-6">
+          <div className="col-start-1 col-end-6 md:mt-0 mt-10">
             <div>
               <div className="mb-1">
                 <img
@@ -86,7 +86,7 @@ const Body = () => {
               </div>
             </div>
             <div className="grid grid-cols-2 flex mb-2">
-              <div className="flex">
+              <div className="md:flex">
                 <p>Harga mulai dari:</p>
                 <p className="font-semibold">&nbsp; Rp125.000,00/malam</p>
               </div>
@@ -104,7 +104,7 @@ const Body = () => {
           </div>
         </div>
         <div className="grid grid-cols-12 gap-4">
-          <div className="col-start-1 col-end-6">
+          <div className="col-start-1 col-end-6 md:mt-0 mt-10">
             <div>
               <div className="mb-1">
                 <img
@@ -171,7 +171,7 @@ const Body = () => {
               </div>
             </div>
             <div className="grid grid-cols-2 flex mb-2">
-              <div className="flex">
+              <div className="md:flex">
                 <p>Harga mulai dari:</p>
                 <p className="font-semibold">&nbsp; Rp125.000,00/malam</p>
               </div>
@@ -189,7 +189,7 @@ const Body = () => {
           </div>
         </div>
         <div className="grid grid-cols-12 gap-4">
-          <div className="col-start-1 col-end-6">
+          <div className="col-start-1 col-end-6 md:mt-0 mt-10">
             <div>
               <div className="mb-1">
                 <img
@@ -256,7 +256,7 @@ const Body = () => {
               </div>
             </div>
             <div className="grid grid-cols-2 flex mb-2">
-              <div className="flex">
+              <div className="md:flex">
                 <p>Harga mulai dari:</p>
                 <p className="font-semibold">&nbsp; Rp125.000,00/malam</p>
               </div>
@@ -274,7 +274,7 @@ const Body = () => {
           </div>
         </div>
         <div className="grid grid-cols-12 gap-4">
-          <div className="col-start-1 col-end-6">
+          <div className="col-start-1 col-end-6 md:mt-0 mt-10">
             <div>
               <div className="mb-1">
                 <img
@@ -341,7 +341,7 @@ const Body = () => {
               </div>
             </div>
             <div className="grid grid-cols-2 flex mb-2">
-              <div className="flex">
+              <div className="md:flex">
                 <p>Harga mulai dari:</p>
                 <p className="font-semibold">&nbsp; Rp125.000,00/malam</p>
               </div>
@@ -359,7 +359,7 @@ const Body = () => {
           </div>
         </div>
         <div className="grid grid-cols-12 gap-4">
-          <div className="col-start-1 col-end-6">
+          <div className="col-start-1 col-end-6 md:mt-0 mt-10">
             <div>
               <div className="mb-1">
                 <img
@@ -426,7 +426,7 @@ const Body = () => {
               </div>
             </div>
             <div className="grid grid-cols-2 flex mb-2">
-              <div className="flex">
+              <div className="md:flex">
                 <p>Harga mulai dari:</p>
                 <p className="font-semibold">&nbsp; Rp125.000,00/malam</p>
               </div>

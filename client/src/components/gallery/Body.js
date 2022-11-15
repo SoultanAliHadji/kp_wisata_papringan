@@ -2,53 +2,53 @@ import "../../App.css";
 
 const Body = () => {
   return (
-    <div className="md:pt-8">
+    <div className="pt-8">
       <div className="grid grid-cols-5 gap-y-8">
         <div className="flex justify-center">
           <img
-            className="w-44 h-44"
+            className="md:w-44 w-20 md:h-44 h-20"
             src={require("../../assets/ex_gallery_img.png")}
             alt=""
           />
         </div>
         <div className="flex justify-center">
           <img
-            className="w-44 h-44"
+            className="md:w-44 w-20 md:h-44 h-20"
             src={require("../../assets/ex_gallery_img.png")}
             alt=""
           />
         </div>
         <div className="flex justify-center">
           <img
-            className="w-44 h-44"
+            className="md:w-44 w-20 md:h-44 h-20"
             src={require("../../assets/ex_gallery_img.png")}
             alt=""
           />
         </div>
         <div className="flex justify-center">
           <img
-            className="w-44 h-44"
+            className="md:w-44 w-20 md:h-44 h-20"
             src={require("../../assets/ex_gallery_img.png")}
             alt=""
           />
         </div>
         <div className="flex justify-center">
           <img
-            className="w-44 h-44"
+            className="md:w-44 w-20 md:h-44 h-20"
             src={require("../../assets/ex_gallery_img.png")}
             alt=""
           />
         </div>
         <div className="flex justify-center">
           <img
-            className="w-44 h-44"
+            className="md:w-44 w-20 md:h-44 h-20"
             src={require("../../assets/ex_gallery_img.png")}
             alt=""
           />
         </div>
         <div className="flex justify-center">
           <img
-            className="w-44 h-44"
+            className="md:w-44 w-20 md:h-44 h-20"
             src={require("../../assets/ex_gallery_img.png")}
             alt=""
           />

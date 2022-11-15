@@ -2,7 +2,7 @@ import "../../App.css";
 
 const Body = () => {
   return (
-    <div className="md:pt-8">
+    <div className="pt-8">
       <div className="grid grid-cols-1 gap-y-8">
         <div>
           <div className="grid grid-cols-2 mb-4">
@@ -13,7 +13,7 @@ const Body = () => {
               <p>02 Januari 2023</p>
             </div>
           </div>
-          <div className="w-full h-[252px] bg-[#EDECEC] flex justify-center items-center rounded-[10px]">
+          <div className="w-full md:h-[252px] bg-[#EDECEC] flex justify-center items-center rounded-[10px]">
             <img
               className="h-full rounded-[10px]"
               src={require("../../assets/ex_event_img.png")}
@@ -38,7 +38,7 @@ const Body = () => {
               <p>02 Januari 2023</p>
             </div>
           </div>
-          <div className="w-full h-[252px] bg-[#EDECEC] flex justify-center items-center rounded-[10px]">
+          <div className="w-full md:h-[252px] bg-[#EDECEC] flex justify-center items-center rounded-[10px]">
             <img
               className="h-full rounded-[10px]"
               src={require("../../assets/ex_event_img.png")}
@@ -63,7 +63,7 @@ const Body = () => {
               <p>02 Januari 2023</p>
             </div>
           </div>
-          <div className="w-full h-[252px] bg-[#EDECEC] flex justify-center items-center rounded-[10px]">
+          <div className="w-full md:h-[252px] bg-[#EDECEC] flex justify-center items-center rounded-[10px]">
             <img
               className="h-full rounded-[10px]"
               src={require("../../assets/ex_event_img.png")}

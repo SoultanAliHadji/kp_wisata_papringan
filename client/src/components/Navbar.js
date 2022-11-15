@@ -12,29 +12,29 @@ const Navbar = () => {
           </div>
         </div>
         <div className="col-start-3 col-end-11 flex justify-center items-center font-semibold">
-          <div className="px-4 border-r-2 border-gray-300">
+          <div className="md:px-4 px-2 border-r-2 border-gray-300">
             <a className="hover:font-bold" href="tourism">
-              <button>Daya Tarik Wisata</button>
+              <button className={window.location.pathname == "/tourism" ? "font-bold" : ""}>Daya Tarik Wisata</button>
             </a>
           </div>
-          <div className="px-4 border-r-2 border-gray-300">
+          <div className="md:px-4 px-2 border-r-2 border-gray-300">
             <a className="hover:font-bold" href="/homestay">
-              <button>Homestay</button>
+              <button className={window.location.pathname == "/homestay" ? "font-bold" : ""}>Homestay</button>
             </a>
           </div>
-          <div className="px-4 border-r-2 border-gray-300">
+          <div className="md:px-4 px-2 border-r-2 border-gray-300">
             <a className="hover:font-bold" href="/product">
-              <button>Produk Lokal</button>
+              <button className={window.location.pathname == "/product" ? "font-bold" : ""}>Produk Lokal</button>
             </a>
           </div>
-          <div className="px-4 border-r-2 border-gray-300">
+          <div className="md:px-4 px-2 border-r-2 border-gray-300">
             <a className="hover:font-bold" href="/event">
-              <button>Acara</button>
+              <button className={window.location.pathname == "/event" ? "font-bold" : ""}>Acara</button>
             </a>
           </div>
-          <div className="px-4 border-gray-300">
+          <div className="md:px-4 px-2 border-gray-300">
             <a className="hover:font-bold" href="/gallery">
-              <button>Galeri Foto</button>
+              <button className={window.location.pathname == "/gallery" ? "font-bold" : ""}>Galeri Foto</button>
             </a>
           </div>
         </div>
